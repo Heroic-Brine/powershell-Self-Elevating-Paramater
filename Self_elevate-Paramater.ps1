@@ -10,6 +10,3 @@ If (-NOT ([Security.Principal.WindowsPrincipal][Security.Principal.WindowsIdenti
 Start-Process powershell.exe $PathToScript -Verb runAs
 exit
 }
-
-Write-Output "test"
-start-sleep 15
