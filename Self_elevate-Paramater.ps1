@@ -13,3 +13,4 @@ exit
 }
 #If the script is allready administrator there is no need to ask user again for administrator rights
 Start-Process powershell.exe $PathToScript
+exit
